@@ -21,15 +21,21 @@ body{
     background: var(--branco);
 }
 
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
+
 .navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 5px 40px;
     width: 100%;
     background: var(--preto);
-    box-shadow: 0 0.1rem 0.5rem #ccc;
+    box-shadow: 0 0.1rem 0.5rem var(--laranja);
     transition:all 0.5s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative; /*FIXA O NAV SEM DEIXAR O BANNER SOBREPOR */
+    z-index: 1; /*POSIÇÃO DOS OBJETOS*/
 }
 .logotipo{
     width:15%;
@@ -62,4 +68,22 @@ body{
 }
 
 
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN*/
 
+.back-ground-main{
+    background-image: url(../img/MAIN-banner.PNG);
+    padding-top: 45px;
+    width:100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+/* .principal{
+    background: rgb(75,16,53);
+    height: 850px;
+    padding-top: 55px;
+    background-image: url(../img/prin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw; */
