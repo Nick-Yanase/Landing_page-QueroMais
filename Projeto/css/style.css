@@ -22,7 +22,9 @@ body{
 }
 
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
-
+header {
+    max-width: 100vw;
+}
 .navigation{
     display: flex;
     align-items: center;

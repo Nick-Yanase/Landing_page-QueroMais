@@ -16,36 +16,47 @@
     --branco:#ffffff;
 }
 
-.navigation{
+nav{
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 40px;
-    width: 100vw;
     background: var(--preto);
     transition:all 0.5s;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    top:0;
+    left:0;
     position: relative; /*FIXA O NAV SEM DEIXAR O BANNER SOBREPOR */
     z-index: 1; /*POSIÇÃO DOS OBJETOS*/
+    
 }
+
 .logotipo{
-    width:15%;
+    margin: 0%;
+   
+}
+    
+.logotipo a img{
+    width:20%;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
 }
 
-.nav-menu{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5rem;
-}
 
-.navigation a{
+
+.nav-menu ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    
+}
+nav a{
     font-size: 16px;
     color:var(--branco);
     font-weight:500;
+    margin:0 auto;
+    transition: all 0.5s;
 }
 .nav-menu a:hover{
     color:var(--laranja);
@@ -57,7 +68,6 @@
     align-items: center;
     gap: 1.5rem;
     font-size: 1.5rem;
-
 }
 
 
@@ -65,25 +75,87 @@
 main{
     color: var(--branco);
     max-width: 100vw;
-    width:100%;
+    max-height: 100vh;
     
 }
-.conteudo{
-    position: absolute;
+section.conteudo01{
     align-items: center;
-    text-align: center;
-    margin: 40px;
-    z-index: 1;
+    text-align:left;
     font-size: 20px;
-}
-.conteudo .texto1{
-    line-height: 2.0rem;
-}
-main img{
-    z-index: 0;
-    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/Projeto/img/bannerSobre.png);
     position: relative;
+    background-position: center;
     
-    width: 100%;
-    top: -50px;
 }
+
+.conteudo01 .linha{
+    background: var(--branco);
+    padding:1px 5px;
+    margin: 0 500px;
+   
+    
+}
+
+.titulo{
+    padding: 40px 0 10px 0;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size:2rem;
+}
+.container01 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.texto1 {
+    padding: 10px 0px 10px 0;
+}
+
+.texto1 p{
+    padding: 10px 100px 10px 0px;
+}
+
+.container01 img{
+    padding: 100px 0 0 0;
+    max-width:600px;
+    width: 100%;
+    max-height: 450px;
+}
+
+section.conteudo02{
+    align-items: center;
+    text-align:left;
+    font-size: 20px;
+    height: 70vh;
+   
+    background-size: cover;
+    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/Projeto/img/bannerSobre.png);
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 150px 50px 150px;
+}
+
+.texto2 {
+    padding: 10px 0px 10px 0;
+}
+
+.texto2 p{
+    padding: 10px 0 10px 80px;
+}
+
+.conteudo02 img{
+    padding: 0px 0 0 0;
+    max-width:600px;
+    width: 100%;
+    max-height: 450px;
+}
+
+
+
+
