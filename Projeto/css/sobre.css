@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+/*GITHUB*/
 *{
     margin: 0;
     padding: 0;
@@ -82,12 +82,13 @@ section.conteudo01{
     align-items: center;
     text-align:left;
     font-size: 20px;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-size: cover;
-    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/Projeto/img/bannerSobre.png);
+    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../img/bannerSobre.png);
     position: relative;
     background-position: center;
+    padding: 0 50px;
     
 }
 
@@ -108,7 +109,7 @@ section.conteudo01{
 .container01 {
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 50px 250px 0 250px;
 }
 
 .texto1 {
@@ -116,29 +117,30 @@ section.conteudo01{
 }
 
 .texto1 p{
-    padding: 10px 100px 10px 0px;
+    padding: 10px 200px 10px 0px;
 }
 
 .container01 img{
     padding: 100px 0 0 0;
-    max-width:600px;
+    max-width:700px;
     width: 100%;
-    max-height: 450px;
+    max-height: 400px;
+    padding: 50px 10px 0 0;
 }
 
 section.conteudo02{
     align-items: center;
     text-align:left;
     font-size: 20px;
-    height: 70vh;
+    height: 60vh;
    
     background-size: cover;
-    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/Projeto/img/bannerSobre.png);
+    background: linear-gradient( rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../img/bannerSobre.png);
     position: relative;
     background-position: center;
     display: flex;
     justify-content: space-between;
-    padding:10px 150px 50px 150px;
+    padding:0px 310px ;
 }
 
 .texto2 {
@@ -146,16 +148,15 @@ section.conteudo02{
 }
 
 .texto2 p{
-    padding: 10px 0 10px 80px;
+    padding: 10px 0 10px 100px;
 }
 
 .conteudo02 img{
     padding: 0px 0 0 0;
     max-width:600px;
     width: 100%;
-    max-height: 450px;
+    max-height: 400px;
 }
-
 
 
 
